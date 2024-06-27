@@ -1,0 +1,183 @@
+@import url(https://fonts.google.com/specimen/Inter);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+main{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.stg-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.stg-1 img{
+    margin-top: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.stg-1 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+}
+
+.stg-1 h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(75, 94%, 57%);
+}
+
+.stg-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.stg-2 b{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.stg-2 button{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 550;
+    padding: 12px;
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 100%); 
+    border-radius: 10px;
+    border: none;
+}
+
+.stg-2 button:hover{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* Mobile Design */
+
+@media(max-width:450px){
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 8%);
+    }
+    
+    main{
+        width: 75%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 12%);
+    }
+    
+    .stg-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .stg-1 img{
+        margin-top: 35px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    .stg-1 h1{
+        font-size: 30px;
+        font-weight: 500;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .stg-1 h2{
+        font-size: 18px;
+        font-weight: 400;
+        color: hsl(75, 94%, 57%);
+    }
+    
+    .stg-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 15px;
+    }
+    
+    .stg-2 b{
+        font-size: 15px;
+        font-weight: 400;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .stg-2 button{
+        width: 100%;
+        font-size: 13px;
+        font-weight: 550;
+        padding: 12px;
+        background-color: hsl(0, 0%, 10%);
+        color: hsl(0, 0%, 100%); 
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .stg-2 button:hover{
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        background-color: hsl(75, 94%, 57%);
+        color: black;
+    }
+
+}
+
+
